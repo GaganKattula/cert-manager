@@ -18,7 +18,7 @@ maintainers:
     email: cert-manager-maintainers@googlegroups.com
     url: https://cert-manager.io
 sources:
-  - https://github.com/cert-manager/cert-manager
+  - https://github.com/GaganKattula/cert-manager
 
 kubeVersion: ">= 1.22.0-0"
 
