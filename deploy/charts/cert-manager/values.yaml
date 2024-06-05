@@ -1314,6 +1314,8 @@ startupapicheck:
     # Optional additional annotations to add to the Job's Service Account.
     # +docs:property
     annotations:
+      meta.helm.sh/release-name: cert-manager
+      meta.helm.sh/release-namespace: cert-manager
       helm.sh/hook: post-install
       helm.sh/hook-weight: "-5"
       helm.sh/hook-delete-policy: before-hook-creation,hook-succeeded
